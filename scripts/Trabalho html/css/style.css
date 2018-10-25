@@ -1,0 +1,68 @@
+
+body{
+	margin: 0px;
+}
+.sec-cabecalho img{
+	float:left;
+	width:15%;
+	height:105px;
+}
+.sec-cabecalho{
+	background-color:#3AAACF;
+}
+.sec-cabecalho nav{
+	text-decoration: none;
+}
+.sec-cabecalho nav ul{
+	display: -webkit-inline-box;
+	list-style-type: none;
+	padding: 13px;
+	padding-left:120px;
+	font-size: 24px;
+
+}
+.sec-cabecalho nav li{
+	padding: 0 10px;
+	
+}
+.sec-cabecalho nav ul li a{
+	text-decoration: none;
+	padding:10px;
+	color: white;
+}
+.sec-topo{
+	width:100%;
+	max-width:100%;
+	height: 100vh;
+	background: url('../images/montanha.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.sec-destaque{
+	float:right;
+
+}
+.sec-notice{
+
+}
+.fig{
+	float:left;
+}
+.fig img{
+	border-radius: 20px;
+	height: 300px;
+	width: 300px;
+}
+.sec-destaque figure{
+	float:left;
+
+}
+.contato {
+	position:absolute;
+	left:0;
+
+	border-right: 4px dashed blue;
+
+	padding: 15px;
+}
