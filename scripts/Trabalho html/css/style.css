@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
 
 body{
 	margin: 0px;
+	font-family: 'PT Sans Caption', sans-serif;
 }
 .sec-cabecalho img{
 	float:left;
@@ -23,6 +25,7 @@ body{
 }
 .sec-cabecalho nav li{
 	padding: 0 10px;
+	font-family: inherit;
 	
 }
 .sec-cabecalho nav ul li a{
