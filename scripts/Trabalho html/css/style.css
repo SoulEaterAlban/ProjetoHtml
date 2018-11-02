@@ -78,3 +78,38 @@ body{
 
 	padding: 15px;
 }
+
+input{
+
+	background-color:rgba(0,0,0,0);
+	color:blue;
+	border-shadow:inset 0,0,0,3px blue;
+}
+.assunto{
+	color:blue;
+	background-color:#3aaacf;
+	
+}
+label{
+		color:#3aaacf
+}
+h2,span,textarea .assunto{
+		color:grey;
+		width:169px;
+		border:none;
+}
+
+h3{
+	text-align:center;
+	background-color:#3aaacf;
+}
+/*icones fontalson*/
+
+.icon_user{
+color:	darkgrey;
+}
+
+imput{
+border-right:none;	
+}
+
