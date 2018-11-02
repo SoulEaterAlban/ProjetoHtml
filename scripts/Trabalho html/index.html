@@ -65,43 +65,63 @@
     </aside>
     <aside class="contato">
 
-                <form>
+               <form>
                     <div class="box">
-                    <h3> Contato</h3>
-                    
-                    <label for="nome">Nome:</label>
-                        <input type="texto" name="nome">
-        
-                    <br><br>
-        
-                    <label for="email"> Email:</label>
-                        <input type="email" name ="email"  placeholder= "Digite seu email" size ="20" maxlenght ="35">
-                    
-                    <br/><br/>
-        
-                    <label for="assunto">Assunto: </label>
+						<h3> Contato </h3>
+                    <div>
+					
+					<div class="icon_user">
+						<label for="nome">  Nome:</label>
+						
+						<i class="fa fa-user" aria-hidden="true"></i>
+						
+					<input type="texto" name="nome" placeholder="digite o seu nome">
+                    </div>   
+					<div>
+						<label for="email"> Email:</label>
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+                        <input type="email" name ="email"  placeholder= "  Digite seu email" size ="20" maxlenght ="35">
+					
+						
+					
+					
+					
+					</div>
+				   
+				   
+				   <div>
+						<label for="assunto">Assunto: </label>
                         <input type="radio" name="assunto" value="duvida" class="assunto">Dúvida
                         <input type="radio" name="assunto" value="sugestao" class="assunto">Sugestão
+                    <div/>
+					
+						<label for="mensagem">mensagem: </label>
+                    <div>
+                        <textarea name = "mensagem"  id="mensagem"   rows = "4" cols = "" maxlenght= "100"  placeholder = "Digite sugestoes ao site"></textarea> 
+						
+                    </div>
+					
+					<div>
+						<input class="fontewhite" type="submit" value="ENVIAR"><!--botão enviar-->
         
-                    <br/><br/>
-                    <label for="mensagem">mensagem: </label>
-                    <br>
-                        <textarea name = "mensagem"  id="mensagem"   rows = "4" cols = "50" maxlenght= "300"  placeholder = "Digite sugestoes ao site"></textarea> 
-
-                    <br>
-                  
-                    <input class="fontewhite" type="submit" value="ENVIAR"><!--botão enviar-->
-        
-                    <input class="fontewhite" type="reset" value="LIMPAR">
+						<input class="fontewhite" type="reset" value="LIMPAR">
                     </div>
                 </form>
-
-
-      
     </aside>
-  </section>
+  </section> 
+  
+  <script>
+	  alert(" deseja notificações do site ?");
+	</script>
+	
   <footer>
-    
+  <!-- isso é muito estranho o footer nao aparece  no lugar certo ...
+    <img class="sociais"src="../imagens/snapchat.png"              alt="imagem do snapchat">
+    <img class="sociais"src="../imagens/facebook.png"             alt="imagem do facebook ">
+    <img class="sociais"src="../imagens/instagram.png"        alt="imagem do instagram">
+      &copy direitos reservado aos autores  |<a href="#">reportar bugs </a>
+	-->
+	  
   </footer>
   </body>
 </html>
