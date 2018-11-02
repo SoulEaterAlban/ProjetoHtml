@@ -33,6 +33,14 @@ body{
 	padding:10px;
 	color: #3AAACF;
 }
+.text{
+	text-align: center;
+	margin: auto;
+	font-size: 70px;
+	position: absolute;
+    top: 26%;
+    left: 27%;
+}
 .sec-topo{
 	width:100%;
 	max-width:100%;
@@ -41,16 +49,17 @@ body{
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
+	position: relative;
 }
 .sec-destaque{
-	float:right;
+	
 
 }
 .sec-notice{
 
 }
 .fig{
-	float:left;
+
 }
 .fig img{
 	border-radius: 20px;
