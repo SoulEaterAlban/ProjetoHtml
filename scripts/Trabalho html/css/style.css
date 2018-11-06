@@ -52,7 +52,7 @@ body{
 	position: relative;
 }
 .sec-destaque{
-	
+	margin:10%;
 
 }
 .sec-notice{
@@ -68,8 +68,23 @@ body{
 }
 .sec-destaque figure{
 	float:left;
+	
 
 }
+/*  noticias       */
+.topicos-notice{
+	text-align:center;
+    font-weight: bold;
+	size:60px;
+}
+
+
+
+
+
+
+
+
 .contato {
 	position:absolute;
 	left:0;
@@ -103,6 +118,7 @@ h3{
 	text-align:center;
 	background-color:#3aaacf;
 }
+
 /*icones fontalson*/
 
 .icon_user{
