@@ -88,20 +88,19 @@ body{
 	size:60px;
 }
 
-
-
-
-
-
-
-
+.endereco{
+	position:absolute;
+	right:0;
+	
+	margin:10%
+}
 .contato {
 	position:absolute;
 	left:0;
 
 	border-right: 4px dashed blue;
-
-	padding: 15px;
+	margin:10%
+	
 }
 
 input{
