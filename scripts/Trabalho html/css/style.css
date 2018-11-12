@@ -40,15 +40,18 @@ body{
     top: 26%;
     left: 19%;
 }
-.text a{
+.entrar{
     text-decoration: none;
-    color: black;
+    color: #3AAACF;
     border-radius: 30px;
 	background-color:white;
 	padding: 10px 20px;
+	font-size:35px;
 	
 }
-.text a:houver{
+a:hover.entrar{
+	color:white;
+	background-color:#3AAACF;
 	
 }
 .sec-topo{
