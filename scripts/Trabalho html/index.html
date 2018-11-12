@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	
+	<link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <title>Asas da liberdade</title>
   </head>
   <body>
@@ -67,73 +67,79 @@
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.4234768567026!2d-46.60013108544259!3d-23.55322958468688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5935e6d7f161%3A0xe1e8049a33dc964b!2sETEC+Professor+Camargo+Aranha!5e0!3m2!1spt-BR!2sbr!4v1538614765666" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 		
 	</section>
+ 
   <section>
-    <aside class="endereco">
-	<address>
-    Voce pode contatar o autor em <br>
-	<a href="http://eteccamargoaranha.com.br/">www.eteccamargoaranha.com</a>.<br>
+    <aside class="esquerda">
+    <div class="centro">
+    <form>
+    <div>
+      <h4>Contato</h4>
+    </div>
+
+    <div>
+      <label class="lb">Nome: </label>
+      <input class="tx" type="text" name="Nome" alt="digite seu nome aqui" size="40">
+    </div>
+
+    <div>
+    <label class="lb">E-mail: </label>
+    <input class="tx" type="e-mail" name="E-mail" placeholder="e-mail@example.com" size="40">
+    </div>
+    <div>
+      <label class="lb" for="assunto">Assunto: </label>
+        <input class="tx" type="radio" name="assunto" value="duvida" class="assunto">Dúvida
+        <input class="tx" type="radio" name="assunto" value="sugestao" class="assunto">Sugestão
+    </div>
+
+    <div>
+    <label class="lb1">Mensagem:</label>
+      <textarea class="tx" rows="4" cols="50" maxlength="300"></textarea>
+    </div>
+      <div>
+      <input class="bt" type="button" name="bt" value="Enviar">
+      <input class="bt" type="reset" name="bt" value="Limpar">
+    </div>
+
+  </form>
+  </div>
+  </aside>
+  <aside class="direita">
+       <div class="centro">
+        <div class="icon1">
+          <a class="link1"href="#" title="Facebook">
+     <i class="fa fa-facebook-official" aria-hidden="true"></i>
+   </a>
+   </div>
+   <div class="icon2">
+    <a class="link2" href="#" title="Twitter">
+     <i class="fa fa-twitter" aria-hidden="true"></i>
+   </a>
+   </div>
+   </div>
+
+  </aside>
+
+  </section>
+
+	
+  
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+ <!--  Voce pode contatar o autor em <br>
+  <a href="http://eteccamargoaranha.com.br/">www.eteccamargoaranha.com</a>.<br>
     
-	tel :(11) 2694-6733<br>
+  tel :(11) 2694-6733<br>
     Você tambem pode querer nos visitar:<br>
     Rua marcial 25<br>
     Mooca,São Paulo -Sp<br>
-	Cep : 03169-040<br>
-    Brasil
-  </address>
-      
-    </aside>
-    <aside class="contato">
-
-               <form>
-                    <div class="box">
-						<h3> Contato </h3>
-                    <div>
-					
-					<div class="icon_user">
-						<label for="nome">  Nome:</label>
-						
-						<i class="fa fa-user" aria-hidden="true"></i>
-						
-					<input type="texto" name="nome" placeholder="digite o seu nome">
-                    </div>   
-					<div>
-						<label for="email"> Email:</label>
-						<i class="fa fa-envelope" aria-hidden="true"></i>
-                        <input type="email" name ="email"  placeholder= "  Digite seu email" size ="20" maxlenght ="35">
-					</div>
-				   
-				   <div>
-						<label for="assunto">Assunto: </label>
-                        <input type="radio" name="assunto" value="duvida" class="assunto">Dúvida
-                        <input type="radio" name="assunto" value="sugestao" class="assunto">Sugestão
-                    <div/>
-					
-						<label for="mensagem">mensagem: </label>
-                    <div>
-                        <textarea name = "mensagem"  id="mensagem"   rows = "4" cols = "" maxlenght= "100"  placeholder = "Digite sugestoes ao site"></textarea> 
-						
-                    </div>
-					
-					<div>
-						<input class="fontewhite" type="submit" value="ENVIAR"><!--botão enviar-->
-        
-						<input class="fontewhite" type="reset" value="LIMPAR">
-                    </div>
-                </form>
-    </aside>
-  </section> 
-  
-  
-	
-  <footer>
-  <!-- isso é muito estranho o footer nao aparece  no lugar certo ...
-    <img class="sociais"src="../imagens/snapchat.png"              alt="imagem do snapchat">
-    <img class="sociais"src="../imagens/facebook.png"             alt="imagem do facebook ">
-    <img class="sociais"src="../imagens/instagram.png"        alt="imagem do instagram">
-      &copy direitos reservado aos autores|  | 
-	  Se encontrar qualquer bug, por favor <a href="mailto:asasdainformacao@gmail.com">contate-nosnesse e-mail</a>.<br>
-	-->
-	  
-  </footer>
-  </body>
-</html>
+  Cep : 03169-040<br>
+    Brasil -->
