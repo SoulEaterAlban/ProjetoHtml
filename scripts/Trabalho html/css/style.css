@@ -152,3 +152,46 @@ a:hover.link1{
 a:hover.link2{
 	color:#1dcaff;
 }
+
+/*parte da noticia*/
+
+
+.color{
+	background: #3AAACF;
+}
+
+.titulo{
+	font-size: 60px;
+	text-align: center;
+	color:white;
+	
+}
+.descricao{
+	text-align: center;
+	color:aliceblue;
+}
+.descricao2{
+	text-align: center;
+	color:#555553;
+	padding-top:20px;
+}
+
+.conteudo{
+	text-align: justify;
+    padding: 30px 170px;
+    font-size: 20px;
+}
+
+.imagem{
+	display:table;
+	margin:0 auto;
+}
+.imgnoticia{
+	height:360px;
+	width:640px;
+	padding:60px;
+}
+.subtitulo{
+	font-size:40px;
+	padding: 0px 170px;
+}
