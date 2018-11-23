@@ -95,6 +95,7 @@ a:hover.entrar{
 .centro{
 
 	display: table;
+	margin: 30px;
 }
 .lb1{
 	display: block;
@@ -122,7 +123,7 @@ a:hover.entrar{
 }
 .esquerda{
 	float:left;
-	margin: 30px;
+	
 }
 .direita{
 	display: table;
@@ -195,3 +196,12 @@ a:hover.link2{
 	font-size:40px;
 	padding: 0px 170px;
 }
+
+footer {
+background-color:#5f84f2;
+font-weight:bold;
+margin:0px  2px 0xp 2px;
+text-decoration:none;
+	color:white;
+}
+
