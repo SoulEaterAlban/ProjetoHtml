@@ -30,23 +30,30 @@ body{
 .sec-cabecalho nav ul li a{
 	text-decoration: none;
 	padding:10px;
-	color: #3AAACF;
+	color: #3a84df;
 }
 .sec-cabecalho nav ul li a:hover{
 	text-decoration: none;
-	color: #3EF0D3;
+	color: #86c2ff;
 }
+
 .text{
 	text-align: center;
-	margin: auto;
+	margin: 0 auto;
+	display: table;
 	font-size: 70px;
 	position: absolute;
-    top: 26%;
-    left: 19%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.text h1{
+	color: #3a84df;
 }
 .entrar{
     text-decoration: none;
-    color: #3AAACF;
+    color: #3a84df;
     border-radius: 30px;
 	background-color:white;
 	padding: 10px 20px;
@@ -55,7 +62,7 @@ body{
 }
 a:hover.entrar{
 	color:white;
-	background-color:#3AAACF;
+	background-color:#3a84df;
 	
 }
 .sec-topo{
@@ -69,14 +76,12 @@ a:hover.entrar{
 	position: relative;
 }
 .sec-destaque{
-	margin:5%;
+	margin:1%;
 
 }
-.sec-notice{
-
-}
-.fig{
-
+.sec-destaque div{
+	margin: 0 auto;
+	display: table;
 }
 .fig img{
 	border-radius: 20px;
@@ -118,12 +123,16 @@ a:hover.entrar{
 .bt{
 	border: none;
     border-radius: 5px;
-    background:#3AAACF;
+    background:#3a84df ;
     color: #fff;
     cursor:pointer;
-    
+    font-weight: bold;
     padding: 8px 11px;
     font-size: 16px;
+}
+.bt:hover{
+	background-color:#86c2ff;
+	color: white;
 }
 .esquerda{
 	float:left;
@@ -162,7 +171,7 @@ a:hover.link2{
 
 
 .color{
-	background: #3AAACF;
+	background:#3a84df;
 }
 
 .titulo{
@@ -202,7 +211,7 @@ a:hover.link2{
 }
 
 footer {
-background-color:#5f84f2;
+background-color:#3b5998;
 font-weight:bold;
 padding:30px;
 color:white;
@@ -210,7 +219,54 @@ text-align:center;
 }
 footer a {
 	text-decoration: none;
-	color:#3AAACF;
+	color:#86c2ff;
 	margin:1%;
 }
 	
+/* parte do login*/
+.bd{
+	background-color: #3a84df; 
+}
+.meio{
+	display: table;
+	margin: 0 auto;
+}
+.tx2{
+	border: 2px solid #fff;
+	border-radius: 28px;
+	padding: 20px;
+	padding-right: 25em;
+	margin-bottom: 5%;
+	background:transparent; 
+	color: #fff;
+}
+
+.bt2{
+	border: none;
+	border-radius: 28px;
+	background: #1dcaff;
+	color:#fff;
+	cursor: pointer;
+    padding: 1em 227px;
+	font-size: 16px;
+}
+.bt2:hover{
+	background-color: #3b5998;
+}
+.questionario{
+	margin-bottom: 10px; 
+}
+
+.meio ::-webkit-input-placeholder{
+	color: white;
+
+}
+.meio :-moz-placeholder{
+	color:white;
+}
+.meio ::-moz-placeholder{
+	color: white;
+}
+.meio :-ms-input-placeholder{
+	color: white;
+}
