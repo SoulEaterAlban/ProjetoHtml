@@ -32,6 +32,10 @@ body{
 	padding:10px;
 	color: #3AAACF;
 }
+.sec-cabecalho nav ul li a:hover{
+	text-decoration: none;
+	color: #3EF0D3;
+}
 .text{
 	text-align: center;
 	margin: auto;
@@ -129,15 +133,15 @@ a:hover.entrar{
 	display: table;
 	margin: 0 auto;
 }
+.etec{
+    text-decoration: none;
+}
 .fa{
 	font-size: 40px!important; 
 }
 .icon1{
-	margin-top:90px;
-	padding-bottom:  10px;
-}
-.icon2{
-	margin-bottom: 95px;
+	margin-top:60px;
+	
 }
 .link1{
 	text-decoration: none;
@@ -200,8 +204,13 @@ a:hover.link2{
 footer {
 background-color:#5f84f2;
 font-weight:bold;
-margin:0px  2px 0xp 2px;
-text-decoration:none;
-	color:white;
+padding:30px;
+color:white;
+text-align:center;
 }
-
+footer a {
+	text-decoration: none;
+	color:#3AAACF;
+	margin:1%;
+}
+	
