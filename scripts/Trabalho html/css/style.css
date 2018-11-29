@@ -12,13 +12,17 @@ body{
 .sec-cabecalho{
 	background-color:white;
 }
+.sec-cabecalho div{
+    display: table;
+    margin: 0 auto;
+}
 .sec-cabecalho nav{
 	text-decoration: none;
 }
 .sec-cabecalho nav ul{
 	display: -webkit-inline-box;
 	list-style-type: none;
-	margin: 1em 30%;
+	
 	font-size: 20px;
 
 }
