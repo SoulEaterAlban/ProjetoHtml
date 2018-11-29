@@ -203,7 +203,7 @@ a:hover.link2{
 
 .conteudo{
 	text-align: justify;
-    padding: 30px 170px;
+    padding: 5px 170px;
     font-size: 20px;
 }
 
@@ -251,7 +251,9 @@ footer a {
 	background:transparent; 
 	color: #fff;
 }
-
+.texto{
+	margin-bottom:5px;
+}
 .bt2{
 	border: none;
 	border-radius: 28px;
@@ -265,7 +267,7 @@ footer a {
 	background-color: #3b5998;
 }
 .questionario{
-	margin-bottom: 10px; 
+	margin-bottom: 71px; 
 }
 
 .meio ::-webkit-input-placeholder{
