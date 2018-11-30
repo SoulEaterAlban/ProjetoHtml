@@ -98,11 +98,6 @@ a:hover.entrar{
 
 }
 
-/*  texto nos cards*/
-
-
-
-
 
 /*  noticias       */
 .topicos-notice{
@@ -283,3 +278,115 @@ footer a {
 .meio :-ms-input-placeholder{
 	color: white;
 }
+
+/*segundo menu de twiter assas da informção*/
+#botoesmenu a {	
+	font-size: 3em;
+	text-decoration: none;
+	color:#3a84df;
+	border: none;
+	padding-left:30%;
+	padding-right:30%;
+	
+}
+#botoesmenu a:hover{
+	text-decoration: none;
+	color: blue;
+}
+
+.cabesalhoredesocial{
+	 display: table;
+    margin: 0 auto;
+	background-color:cyan;
+	
+}
+.cabesalhoredesocial ul{
+	display: -webkit-inline-box;
+	list-style-type: none;
+	text-decoration:none;
+	padding: 0 10px;
+
+}
+
+/* timeline */
+
+#section h1 {
+	text-align: center;
+}
+.centrotime{	
+width: 60%;
+	margin: 0 auto;
+	display: table;
+
+}
+.fotofulano{
+	float: left;
+}
+.fotofulano figcaption {
+	padding-top: 4%;
+	text-align: center;
+	border-radius:50%;
+	
+}
+
+.fotofulano a {
+	color: #141823;
+}
+.fotofulano{
+width:300px;
+height:300px;	
+}
+.msntimeline {
+	text-align: justify;
+}
+.mudacor:hover {	
+	cursor: pointer;
+	color: blue;
+}
+.qnttwits{	
+	text-align: right !important;
+	font-weight: bold;
+}
+/*usuarioq*/
+.perfilcentralizado{
+		text-align:center;
+		margin-left:20%;
+		margin-right:20%;
+		margin-top:1%;
+}
+.perfilfotomim{
+	float:left;
+}
+.iconesperfil i{
+	color:#3a84df;
+}
+.iconesperfil:hover{
+	color:black;
+}
+/*  seguir usuarios*/
+.centerbusca{
+		text-align:center;
+	
+		
+}
+.perfilfotomim{
+	justify-content:center;
+}
+opcoes{
+	 display: table;
+    margin: 0 auto;
+	display: -webkit-inline-box;
+	text-decoration:none;
+	margin-bottom:5%;
+	
+}
+.fulano{
+	margin-left:30%;
+	float:left;
+	list-style-type: none;
+}
+.seguidores{
+	float:left;
+	list-style-type: none;
+}
+
